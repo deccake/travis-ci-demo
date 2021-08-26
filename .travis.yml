@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+script:
+  - docker build -t amo143/node .
+  - docker images amo143/node
