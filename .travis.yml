@@ -5,7 +5,7 @@ script:
   - docker build -t amo143/node .
   - docker images amo143/node
 before_deploy:
-  - docker login -u amol143 -p amol@1234
+  - docker login -u amo143 -p amol@1234
 deploy:
   provider: script
   script: docker push amo143/node
